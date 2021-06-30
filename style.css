@@ -1,0 +1,58 @@
+.menu{
+    display: flex;
+    justify-content:space-between ;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    color: blanchedalmond;
+    padding: 15px;
+}
+body{
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    
+}
+.origami{
+    padding: 30px;
+    margin: 25px;
+    background-color: white;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.bodyImg{
+    position: relative;
+
+}
+.bodyImg p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.bodyImg h3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: fantasy;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: blue;
+}
